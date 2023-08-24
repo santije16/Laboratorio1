@@ -1,0 +1,57 @@
+public static void main(String[] args) {
+        //PUNTO A
+        int num1 = 40;
+        int num2 = 50;
+        int num3 = 60;
+        int num4 = 24;
+        int num5 = 66;
+        int num6 = 12;
+        int num7 = 98;
+        int sumaNumeros = num1+num2+num3+num4+num5+num6+num7;
+        double promedio = sumaNumeros/(float)7;
+        
+        System.out.println("El promedio de los numeros es: "+ promedio);
+        
+        //PUNTO B
+        if (num1 < promedio) {
+            System.out.println(num1+ " esta por debajo del promedio");
+        } else {
+            System.out.println(num1+ " esta por encima del promedio");
+        }
+        
+        if (num2 < promedio) {
+            System.out.println(num2+ " esta por debajo del promedio");
+        } else {
+            System.out.println(num2+ " esta por encima del promedio");
+        }
+        
+        if (num3 < promedio) {
+            System.out.println(num3+ " esta por debajo del promedio");
+        } else {
+            System.out.println(num3+ " esta por encima del promedio");
+        }
+        
+        if (num4 < promedio) {
+            System.out.println(num4+ " esta por debajo del promedio");
+        } else {
+            System.out.println(num4+ " esta por encima del promedio");
+        }
+        
+        if (num5 < promedio) {
+            System.out.println(num5+ " esta por debajo del promedio");
+        } else {
+            System.out.println(num5+ " esta por encima del promedio");
+        }
+        
+        if (num6 < promedio) {
+            System.out.println(num6+ " esta por debajo del promedio");
+        } else {
+            System.out.println(num6+ " esta por encima del promedio");
+        }
+        
+        if (num7 < promedio) {
+            System.out.println(num7+ " esta por debajo del promedio");
+        } else {
+            System.out.println(num7+ " esta por encima del promedio");
+        }
+}
